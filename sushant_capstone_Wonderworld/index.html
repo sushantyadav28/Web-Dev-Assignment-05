@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WonderWorld — Travel Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#">WonderWorld</a>
+
+      <input class="nav-toggle" id="nav-toggle" type="checkbox" aria-label="toggle navigation" />
+      <label class="nav-toggle-label" for="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#how">How it Works</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-cta" href="#packages">Start Your Journey</a>
+      </nav>
+    </div>
+
+    <div class="hero container">
+      <div class="hero-content">
+        <h1>Find your sandy escape</h1>
+        <p class="lead">Dream beaches, serene sunsets and curated travel experiences — ready when you are.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#packages">Explore Packages</a>
+          <a class="btn btn-outline" href="#destinations">Popular Destinations</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="images/Beach.jpg"  alt="Beach">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="destinations" class="section container">
+      <h2 class="section-title">Popular Destinations</h2>
+      <p class="section-sub">Handpicked coastal escapes and city gems.</p>
+      <div class="cards grid-3">
+        <article class="card">
+          <img src="images/bora bora.jpg" alt="Bora Bora">
+          <div class="card-body">
+            <h3>Bora Bora</h3>
+            <p>Turquoise waters, overwater bungalows, and calm island evenings.</p>
+            <a class="card-link" href="#packages">See Packages →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/maldives.jpg" alt="Maldives">
+          <div class="card-body">
+            <h3>Maldives</h3>
+            <p>Private villas, coral reefs, and infinite horizons.</p>
+            <a class="card-link" href="#packages">See Packages →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/bali.jpg" alt="Bali">
+          <div class="card-body">
+            <h3>Bali</h3>
+            <p>Lush rice terraces, serene temples, and coastal culture.</p>
+            <a class="card-link" href="#packages">See Packages →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="packages" class="section alt-bg container">
+      <h2 class="section-title">Featured Packages</h2>
+      <p class="section-sub">Complete packages with accommodation, meals and curated experiences.</p>
+
+      <div class="cards grid-3">
+        <article class="package-card">
+          <div class="package-top">
+            <h3>Beach Bliss</h3>
+            <span class="badge">5 days</span>
+          </div>
+          <p class="price">₹42,999 <span class="per">per person</span></p>
+          <ul class="features">
+            <li>Return flights</li>
+            <li>4-star resort stay</li>
+            <li>Daily breakfast & excursions</li>
+          </ul>
+          <a class="btn btn-primary btn-full" href="#contact">Book Now</a>
+        </article>
+
+        <article class="package-card">
+          <div class="package-top">
+            <h3>Island Explorer</h3>
+            <span class="badge">7 days</span>
+          </div>
+          <p class="price">₹68,499 <span class="per">per person</span></p>
+          <ul class="features">
+            <li>Multi-island tour</li>
+            <li>Guided water activities</li>
+            <li>All transfers included</li>
+          </ul>
+          <a class="btn btn-primary btn-full" href="#contact">Book Now</a>
+        </article>
+
+        <article class="package-card">
+          <div class="package-top">
+            <h3>Sunset Retreat</h3>
+            <span class="badge">3 days</span>
+          </div>
+          <p class="price">₹24,999 <span class="per">per person</span></p>
+          <ul class="features">
+            <li>Coastal villa stay</li>
+            <li>Spa & dining credits</li>
+            <li>Sunset cruise</li>
+          </ul>
+          <a class="btn btn-primary btn-full" href="#contact">Book Now</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="section container">
+      <h2 class="section-title">How It Works</h2>
+      <p class="section-sub">Three easy steps to begin your vacation.</p>
+      <div class="grid-3 how-grid">
+        <div class="how-item">
+          <div class="how-ico">①</div>
+          <h4>Choose a Destination</h4>
+          <p>Browse curated destinations & packages tailored to your taste.</p>
+        </div>
+        <div class="how-item">
+          <div class="how-ico">②</div>
+          <h4>Customize Your Trip</h4>
+          <p>Select dates, add excursions, and personalise your itinerary.</p>
+        </div>
+        <div class="how-item">
+          <div class="how-ico">③</div>
+          <h4>Travel & Enjoy</h4>
+          <p>We handle logistics — you make memories.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section alt-bg container">
+      <h2 class="section-title">What Travelers Say</h2>
+      <div class="cards grid-3">
+        <blockquote class="testi">
+          <p>“Absolutely magical — WonderWorld made our honeymoon unforgettable.”</p>
+          <cite>— Priya & Rohit</cite>
+        </blockquote>
+        <blockquote class="testi">
+          <p>“Excellent service, seamless booking and breathtaking locations.”</p>
+          <cite>— Asha K.</cite>
+        </blockquote>
+        <blockquote class="testi">
+          <p>“Great value and attention to detail. Highly recommended!”</p>
+          <cite>— Mark D.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="subscribe" class="section container newsletter">
+      <div class="newsletter-inner">
+        <div class="nl-text">
+          <h3>Get special offers</h3>
+          <p>Subscribe to our newsletter for early-bird deals and beach escapes.</p>
+        </div>
+        <form class="nl-form" action="#" onsubmit="return false;">
+          <input type="email" placeholder="Your email address" aria-label="email" required />
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="section container footer-section">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>WonderWorld</h3>
+          <p>Sandy Beach Collection • Curated travel experiences</p>
+          <p>Email: hello@wonderworld.example</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-dark">
+  <div class="container footer-grid">
+
+    <div class="footer-col">
+      <h4>WonderWorld</h4>
+      <a href="#">About Us</a>
+      <a href="#">Our Team</a>
+      <a href="#">Careers</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Destinations</h4>
+      <a href="#">Maldives</a>
+      <a href="#">Bora Bora</a>
+      <a href="#">Bali</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Support</h4>
+      <a href="#">FAQs</a>
+      <a href="#contact">Contact</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 WonderWorld. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
